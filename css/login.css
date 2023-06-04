@@ -1,0 +1,145 @@
+@import "fonts.css";
+@import "colour-scheme.css";
+
+
+body {
+    font-family: 'Noto Sans', 'Arial', 'Inter';
+    margin: 0;
+}
+
+body img {
+    max-width: 100%;
+}
+
+header {
+    color: white;
+    height: 3vh;
+    padding: 1.5vh;
+}
+
+header nav button {
+    display: none;
+}
+
+header li {
+    display: inline;
+    text-align: center; 
+}
+
+header a {
+    color: white;
+}
+
+header h1{
+    display: inline;
+}
+
+ul {
+    margin-left: 1.5em;
+    margin-bottom: 1em;
+}
+
+legend {
+    text-align: center;
+    color: white;
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+
+button {
+    margin: 1em;
+    padding: 1em 2em !important;
+    font-weight: bold;
+    background: rgba(85,107,47, 1);
+    border-radius: 0.2em;
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.25);
+    border: none;
+    color: white;
+    
+}
+
+footer {
+    padding: 1em;
+    color: white;
+}
+
+/* button input {
+    display: inline-block;
+    font-size: 1em;
+    font-weight: bold;
+    color: white;
+    background: rgba(85,107,47, 1);
+    border: none;
+    transition: all 0.2s ease-in-out;
+  } */
+
+
+  
+
+/* classes */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 94vh;
+  }
+  
+.login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3vw 10vw;
+    border: 3px solid rgba(223, 227, 238, 1);
+    border-radius: 5px;
+}
+
+.submit {
+    text-align: center;
+    margin-top: 1em;
+}
+
+.email-password input {
+    width: 20vw;
+    height: 2em;
+    border: none;
+    margin: 0.5em;
+    text-indent: 0.5em;
+}
+
+/* pseudo class selectors (w3schools) */
+header a:link {
+    color: white;
+}
+
+header a:visited {
+    color: white;
+}
+
+header a:hover {
+    color: rgb(46, 46, 46);
+    transition: all 0.2s ease-in-out;
+}
+
+header a:active {
+    color: rgb(46, 46, 46);
+}
+
+/* id selectors */
+#navigation-header li{
+    margin: 0.5em;
+}
+
+#submit-button {
+    padding: 0.5em 1em;
+}
+
+#submit-button:hover {
+    background-color: rgba(132, 132, 132, 0.8); 
+    transition: all 0.2s ease-in-out;
+}
+
+#copyright {
+    text-align: center;
+    margin-top: auto;
+}

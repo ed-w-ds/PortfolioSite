@@ -1,0 +1,174 @@
+@import "fonts.css";
+@import "colour-scheme.css";
+
+body {
+    font-family: 'Noto Sans', 'Arial', 'Inter';
+    margin: 0;
+}
+
+body img {
+    max-width: 100%;
+}
+
+header {
+    color: white;
+    height: 3vh;
+    padding: 1.5vh;
+}
+
+header nav button {
+    display: none;
+}
+
+header li {
+    display: inline;
+    text-align: center; 
+}
+
+header a {
+    color: white;
+}
+
+header h1{
+    display: inline;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    margin: 2vh;
+}
+
+h3 {
+    font-size: 1.5rem;
+    color: rgb(255, 255, 255);
+}
+
+h4 {
+    font-size: 1.3rem;
+    color: white;
+}
+
+footer {
+    padding: 1em;
+    color: white;
+    position: relative;
+}
+
+ul {
+    margin-left: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+/* classes */
+.container {
+    display: grid;
+    grid-template-columns: repeat(1, auto); 
+}
+
+.title {
+    margin: 1.5rem;
+}
+
+.projects-container {
+    display: grid;
+    /* grid-tremplate-columns: repeat(3, auto); */
+    grid-template-columns: repeat(3, minmax(32vw, 1fr));
+    max-width: 100%;
+}
+
+.title {
+    text-align: center;
+    color: white;
+}
+
+.title h3 {
+    font-weight: bold;
+}
+
+/* pseudo class selectors (w3schools) */
+header a:link {
+    color: white;
+}
+
+header a:visited {
+    color: white;
+}
+
+header a:hover {
+    color: rgb(46, 46, 46);
+    transition: all 0.2s ease-in-out;
+}
+
+header a:active {
+    color: rgb(46, 46, 46);
+}
+
+/* id selectors */
+#navigation-header li{
+    margin: 0.5rem;
+}
+
+#projects {
+    height: 94vh;
+    grid-column-start: 1;
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+
+#projects img {
+    max-height: 40vh;
+}
+
+#projectSpotifyAPI {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    width: 33%;
+}
+
+#project-CS50-finance {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    width: 33%;
+}
+
+#project-donut {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+
+#project-coming-soon {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    width: 33vw;
+}
+
+#question-mark {
+    padding-left: 5%;
+}
+
+#copyright {
+    height: auto;
+    grid-column-start: 1;
+    grid-column-end: 7;
+    grid-row-start: 3;
+    grid-row-end: 4; 
+    margin-top: 7rem;
+    margin-bottom: 0px;
+    text-align: center;
+}
